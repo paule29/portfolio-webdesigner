@@ -1,12 +1,13 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE php>
+<php lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <title>Personal Portfolio</title>
+    <title>Portfolio</title>
     <link rel="icon" type="image/svg+xml" href="images/img1.svg" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,19 +18,19 @@
     <!-- début de la page -->
     <header>
     <div class="user">
-    <img src="images/paule.jpg" alt="">
-    <h3 class="name">Paule OMBIONO</h3>
-    <p class="poste">Web Designer </p>
+        <img src="images/paule.jpg" alt="">
+        <h3 class="name">Paule OMBIONO</h3>
+        <p class="poste">Developpeuse Web et Web Designer </p>
      
     </div>
 
     <nav class="navbar">
         <ul>
-        <li><a href="#home">Accueil</a></li>
-        <li><a href="#about">A propos</a></li>
-        <li><a href="#experience">Experiences</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contacts</a></li>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">A propos</a></li>
+            <li><a href="#experience">Experiences</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contacts</a></li>
         
         </ul>
     </nav>
@@ -39,24 +40,29 @@
     <div id="menu" class="fas fa-bars"></div>
 
     <!--home section début -->
+
 <section class="home" id="home">
-    <h3>Bonjour !</h3>
-    <h1>je suis <span>Paule OMBIONO</span></h1>
-    <p> Stagiaire de la formation professionnelle depuis mars 2021 en reconversion professionnelle, passionnée par les métiers du numériques, je voudrais faire de cette passion un métier. Sachat que l'illétré de demain ne sera pas celui qui ne sera pas allé à l'école mais celui qui ne saura pas se servir de l'outil informatique. 
+
+        <h3>Bonjour !</h3>
+
+        <h1>je suis <span>Paule OMBIONO</span></h1>
+    <p> Stagiaire de la formation professionnelle depuis mars 2021 en reconversion professionnelle, passionnée par les métiers du numériques, je voudrais faire de cette passion un métier. Sachant que l'illétré de demain ne sera pas celui qui ne sera pas allé à l'école mais celui qui ne saura pas se servir de l'outil informatique. 
     </p>
     <a href="#about"><button class="btn">A propos de moi <i class="fas fa-user"></i></button></a>
 
 
 </section>
  <!--home section fin-->
+
 <!-- début section about-->
+
 <section class="about" id="about">
-    <h1 class="heading"> <span>A propos</span> de moi </h1>
+    <h1 class="heading"> <span>A </span> propos </h1>
     <div class="row">
         <div class="info">
             <h3> <span> nom :</span> Paule OMBIONO </h3>
             <h3> <span> age :</span> 38 ans</h3>
-            <h3> <span> poste :</span> Web Designer </h3>
+            <h3> <span> poste :</span>Développeuse Web et Web Designer </h3>
             <h3> <span> langue :</span> Français </h3>
             <a href="#"><button class="btn">Téléchargez CV <i class="fas fa-download"></i> </button></a>
 
@@ -89,18 +95,20 @@
         <i class="fas fa-graduation-cap"></i>
         <span>2021</span>
         <h3>Web Designer</h3>
-        <p>Apprendre à coder est intimidant, alors préparez-vous à réussir avec un outil conçu pour vous. Visual Studio Code est un éditeur de codage gratuit qui vous aide à commencer à coder rapidement.</p>
+        <p>Apprendre à coder est intimidant, alors préparez-vous à réussir avec un outil conçu pour vous. 
+            <p>Conception d'un site ;ou d'une application web;
+            <p>Conception et réalisation de l'identité visuelle d'un site web (illustrations, bannières, animations);
+            <p>Dessin sur palette graphique, création des maquettes;
+            <p>Contribution à la gestion et au suivi d'un projet de communication numérique;
+            <p>Contribution à l'élaboration d'un cahier de charge pour différents types de sites.
+        </p>
 
     </div>
 
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
         <span>2019 - 2020</span>
-        <h3>Assistante de télécommunication / support téléphonique DOCAPOST</h3>
-        <p>Bureau d'Etude ENEO INFRACOM (DIJON);
-        <P>Technicienne D1, D2, D3 chez STELSEO (DORDOGNE);
-        <p>
-        </p>
+        <h3>Assistante de télécommunication / support téléphonique : DOCAPOST</h3>
 
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
@@ -114,22 +122,15 @@
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
         <span>2018</span>
-        <h3>Technicienne reseaux télécoms</h3>
-        <p>Apprendre à coder est intimidant, alors préparez-vous à réussir avec un outil conçu pour vous. Visual Studio Code est un éditeur de codage gratuit qui vous aide à commencer à coder rapidement.</p>
+        <h3>Conductrice de ligne automatisée</h3>
+        
 
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
         <span>2017</span>
-        <h3>Technicienne reseaux télécoms</h3>
-        <p>Apprendre à coder est intimidant, alors préparez-vous à réussir avec un outil conçu pour vous. Visual Studio Code est un éditeur de codage gratuit qui vous aide à commencer à coder rapidement.</p>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2016</span>
-        <h3>Technicienne reseaux télécoms</h3>
-        <p>Apprendre à coder est intimidant, alors préparez-vous à réussir avec un outil conçu pour vous. Visual Studio Code est un éditeur de codage gratuit qui vous aide à commencer à coder rapidement.</p>
+        <h3>Technicienne de maintenance industrielle</h3>
         
-    </div>
+
 
 </div>
 
@@ -143,10 +144,10 @@
     <h1 class="heading"> Mon <span>Portfolio</span> </h1>
     <div class="box-container">
         <div class="box">
-            <img src="images/paule1.jpg" alt="" alt="">
+            <img src="images/animation.gif" alt="" alt="">
         </div>
         <div class="box">
-            <img src="images/paule1.jpg" alt="" alt="">
+            <img src="images/light-bull.png" alt="" alt="">
         </div>
         <div class="box">
             <img src="images/photo2.jpeg" alt="" alt="">
@@ -191,7 +192,7 @@
 </section>
 <!-- fin section contact -->
 
-<!-- barre de navigation -->
+<!-- début boutton retour -->
 <div>
         <button onclick ="topFunction()" id="myBtn" title="Go to top">Haut de page
         </button>
@@ -199,7 +200,7 @@
 
 
 
-
+<!-- fin boutton retour -->
 
 
 
@@ -208,4 +209,4 @@
     <script type="" src="main.js"></script>
 
 </body>
-</html>
+</php>

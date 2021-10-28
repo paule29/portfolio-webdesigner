@@ -1,16 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&display=swap');
 :root{
     --yellow:#f9ca24;
 }
-.dark {
-    background-color: #112F41;
-    color: #ffffff;
-  }
-  
 
 
 *{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0; padding: 0;
     box-sizing: border-box;
     outline: none; border: none;
@@ -25,7 +20,7 @@
 
 php{
     font-size: 62.5%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 php::-webkit-scrollbar{
