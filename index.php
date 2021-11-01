@@ -150,7 +150,7 @@
             <img src="images/light-bull.png" alt="" alt="">
         </div>
         <div class="box">
-            <img src="images/photo2.jpeg" alt="" alt="">
+            <img src="images/logo.png" alt="" alt="">
         </div>
         <div class="box">
             <img src="images/paule1.jpg" alt="" alt="">
