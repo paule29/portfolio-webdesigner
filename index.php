@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <title>Portfolio</title>
-    <link rel="icon" type="image/svg+xml" href="images/img1.svg" />
+    <link rel="icon" type="image/svg+xml" href="images/logo.png" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -20,7 +24,7 @@
     <div class="user">
         <img src="images/paule.jpg" alt="">
         <h3 class="name">Paule OMBIONO</h3>
-        <p class="poste">Developpeuse Web et Web Designer </p>
+        <p class="poste">Developpeuse Web et Designer Web </p>
      
     </div>
 
@@ -62,9 +66,9 @@
         <div class="info">
             <h3> <span> nom :</span> Paule OMBIONO </h3>
             <h3> <span> age :</span> 38 ans</h3>
-            <h3> <span> poste :</span>Développeuse Web et Web Designer </h3>
+            <h3> <span> poste :</span>Développeuse Web et Designer Web  </h3>
             <h3> <span> langue :</span> Français </h3>
-            <a href="#"><button class="btn">Téléchargez CV <i class="fas fa-download"></i> </button></a>
+            <a href="#"><button class="btn">Téléchargez CV <i class="fas fa-download"></i></button></a>
 
         </div>
         <div class="counter">
@@ -74,8 +78,9 @@
             </div>
             
             <div class="box">
-                <span>3</span>
+                <span>...</span>
                 <h3>projets completés</h3>
+                
             </div>
             
             
@@ -94,14 +99,13 @@
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
         <span>2021</span>
-        <h3>Web Designer</h3>
-        <p>Apprendre à coder est intimidant, alors préparez-vous à réussir avec un outil conçu pour vous. 
-            <p>Conception d'un site ;ou d'une application web;
-            <p>Conception et réalisation de l'identité visuelle d'un site web (illustrations, bannières, animations);
-            <p>Dessin sur palette graphique, création des maquettes;
-            <p>Contribution à la gestion et au suivi d'un projet de communication numérique;
-            <p>Contribution à l'élaboration d'un cahier de charge pour différents types de sites.
-        </p>
+        <h3>Designer Web </h3> 
+            <li>Conception d'un site; ou d'une application web;</li>
+            <li>Conception et réalisation de l'identité visuelle d'un site web (illustrations, bannières, animations);</li>
+            <li>Dessin sur palette graphique, création des maquettes;</li>
+            <li>Contribution à la gestion et au suivi d'un projet de communication numérique;</li>
+            <li>Contribution à l'élaboration d'un cahier de charge pour différents types de sites.</li>
+        
 
     </div>
 
@@ -109,28 +113,28 @@
         <i class="fas fa-graduation-cap"></i>
         <span>2019 - 2020</span>
         <h3>Assistante de télécommunication / support téléphonique : DOCAPOST</h3>
+    </div>
 
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
         <span>2019</span>
         <h3>Technicienne Réseaux télécoms</h3>
-        <p>Bureau d'Etude ENEO INFRACOM (DIJON);
-        <P>Technicienne D1, D2, D3 chez STELSEO (DORDOGNE);
-        <p>
-        </p>
-
+        <li>Bureau d'Etude ENEO INFRACOM (DIJON);</li>
+        <li>Technicienne D1, D2, D3 chez STELSEO (DORDOGNE);</li>
+        
+    </div>
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
         <span>2018</span>
         <h3>Conductrice de ligne automatisée</h3>
         
-
+    </div>
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
         <span>2017</span>
         <h3>Technicienne de maintenance industrielle</h3>
         
-
+    </div>
 
 </div>
 
@@ -141,27 +145,68 @@
 <!-- début section portfolio -->
 
 <section class="portfolio" id="portfolio">
-    <h1 class="heading"> Mon <span>Portfolio</span> </h1>
-    <div class="box-container">
-        <div class="box">
-            <img src="images/animation.gif" alt="" alt="">
+        <h1 class="heading"> Mes <span>Projets</span> </h1>
+
+        
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <div class="imgBox">
+                    <img src="images/web.png" alt="" />
+                </div>
+                <div class="contentBox">
+                 <h3>Le journal du Web</h3>
+                </div>
+              
+            </div>
+          
+            <ul class="socials">
+            <li style="--i: 1">
+              <a href="http://pauleo.promo-68.codeur.online/le-journal-du-web"><span class="iconify" data-icon="bx:bx-link"></span></a>
+            </li>
+            
         </div>
-        <div class="box">
-            <img src="images/light-bull.png" alt="" alt="">
+        
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <div class="imgBox">
+                    <img src="images/light-bull.png" alt="" />
+                </div>
+                <div class="contentBox">
+                 <h3>Lagrif Tour</h3>
+                </div>
+              
+            </div>
+          
+            <ul class="socials">
+            <li style="--i: 1">
+              <a href="http://pauleo.promo-68.codeur.online/lagrif-tour"><span class="iconify" data-icon="bx:bx-link"></span></a>
+            </li>
+            
         </div>
-        <div class="box">
-            <img src="images/logo.png" alt="" alt="">
+        
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <div class="imgBox">
+                    <img src="images/logo.png" alt="" />
+                </div>
+                <div class="contentBox">
+                 <h3>Lorem</h3>
+                </div>
+              
+            </div>
+          
+            <ul class="socials">
+            <li style="--i: 1">
+              <a href="http://pauleo.promo-68.codeur.online/le-journal-du-web"><span class="iconify" data-icon="bx:bx-link"></span></a>
+            </li>
+            
         </div>
-        <div class="box">
-            <img src="images/paule1.jpg" alt="" alt="">
-        </div>
-        <div class="box">
-            <img src="images/paule1.jpg" alt="" alt="">
-        </div>
-        <div class="box">
-            <img src="images/paule1.jpg" alt="" alt="">
-        </div>
-    </div>
+        
+        
+   
 
 </section>
 <!-- fin section portfolio -->
@@ -204,8 +249,8 @@
 
 
 
-
-    
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>">
+    <script src="vanilla-tilt.min.js"></script>
     <script type="" src="main.js"></script>
 
 </body>
