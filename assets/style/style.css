@@ -18,20 +18,20 @@
     color: #333;
 }
 
-php{
+html{
     font-size: 62.5%;
     overflow-x: hidden;
 }
 
-php::-webkit-scrollbar{
+html::-webkit-scrollbar{
     width: 1.4rem;  
 }
 
-php::-webkit-scrollbar-track{
+html::-webkit-scrollbar-track{
     background: #222;  
 }
 
-php::-webkit-scrollbar-thumb{
+html::-webkit-scrollbar-thumb{
     background:var(--yellow);  
 }
 
@@ -554,7 +554,7 @@ header .navbar ul li a:hover{
 
 @media (max-width:768px){
 
-    php{
+    html{
         font-size: 50%;
     }
   

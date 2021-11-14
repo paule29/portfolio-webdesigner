@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Ceci est mon cv numérique ou j'y ai ajouté mes projets">
     <title>Portfolio</title>
-    <link rel="icon" type="image/svg+xml" href="images/logo.png" />
+    <link rel="icon" type="image/svg+xml" href="assets/images/logo.png" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link
       rel="stylesheet"
       href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style/style.css">
 </head>
 <body>
 
@@ -22,7 +22,7 @@
     <!-- début de la page -->
     <header>
     <div class="user">
-        <img src="images/paule.jpg" alt="">
+        <img src="assets/images/paule.jpg" alt="">
         <h3 class="name">Paule OMBIONO</h3>
         <p class="poste">Developpeuse Web et Designer Web </p>
      
@@ -34,7 +34,7 @@
             <li><a href="#about">A propos</a></li>
             <li><a href="#experience">Experiences</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contacts</a></li>
+            <li><a href="#contact">Contact</a></li>
         
         </ul>
     </nav>
@@ -68,7 +68,7 @@
             <h3> <span> age :</span> 38 ans</h3>
             <h3> <span> poste :</span>Développeuse Web et Designer Web  </h3>
             <h3> <span> langue :</span> Français </h3>
-            <a href="#"><button class="btn">Téléchargez CV <i class="fas fa-download"></i></button></a>
+            <a download href="assets/pdf/CV_Paule_Ombiono.pdf"><button class="btn">Téléchargez CV <i class="fas fa-download"></i></button></a>
 
         </div>
         <div class="counter">
@@ -152,7 +152,7 @@
             <div class="card">
                 <div class="content">
                     <div class="imgBox">
-                    <img src="images/web.png" alt="" />
+                    <img src="assets/images/web.png" alt="" />
                 </div>
                 <div class="contentBox">
                  <h3>Le journal du Web</h3>
@@ -164,6 +164,9 @@
             <li style="--i: 1">
               <a href="http://pauleo.promo-68.codeur.online/le-journal-du-web"><span class="iconify" data-icon="bx:bx-link"></span></a>
             </li>
+            <li style="--i: 1">
+              <a href="https://github.com/paule29/projet-binome"><span class="iconify" data-icon="bx:bxl-github"></span></a>
+            </li>
             
         </div>
         
@@ -171,7 +174,7 @@
             <div class="card">
                 <div class="content">
                     <div class="imgBox">
-                    <img src="images/light-bull.png" alt="" />
+                    <img src="assets/images/light-bull.png" alt="" />
                 </div>
                 <div class="contentBox">
                  <h3>Lagrif Tour</h3>
@@ -183,6 +186,9 @@
             <li style="--i: 1">
               <a href="http://pauleo.promo-68.codeur.online/lagrif-tour"><span class="iconify" data-icon="bx:bx-link"></span></a>
             </li>
+            <li style="--i: 1">
+              <a href="https://github.com/paule29/lagrif-tour"><span class="iconify" data-icon="bx:bxl-github"></span></a>
+            </li>
             
         </div>
         
@@ -190,17 +196,19 @@
             <div class="card">
                 <div class="content">
                     <div class="imgBox">
-                    <img src="images/logo.png" alt="" />
+                    <img src="assets/images/logo.png" alt="" />
                 </div>
                 <div class="contentBox">
-                 <h3>Lorem</h3>
+                 <h3>Le Pendu</h3>
                 </div>
               
             </div>
           
             <ul class="socials">
             <li style="--i: 1">
-              <a href="http://pauleo.promo-68.codeur.online/le-journal-du-web"><span class="iconify" data-icon="bx:bx-link"></span></a>
+              <a href="https://pauleo.promo-68.codeur.online/le-pendu/"><span class="iconify" data-icon="bx:bx-link"></span></a>
+              <a href="https://github.com/paule29/le-pendu"><span class="iconify" data-icon="bx:bxl-github"></span>
+              </a>
             </li>
             
         </div>
@@ -219,6 +227,8 @@
         <div class="content">
             <h3 class="title">Contact Info</h3>
             <div class="info">
+           
+                <h3><i class="fab fa-github"></i>paule29</h3>
                 <h3> <i class="fas fa-envelope"></i>p.ombiono@codeur.online</h3>
                 <h3> <i class="fas fa-phone"></i>07 83 35 65 50</h3>
                 <h3> <i class="fas fa-map-marker-alt"></i>Cote d'Or, 21000 Dijon France</h3>
@@ -250,8 +260,8 @@
 
 
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>">
-    <script src="vanilla-tilt.min.js"></script>
-    <script type="" src="main.js"></script>
+    <script src="assets/script/vanilla-tilt.min.js"></script>
+    <script type="" src="assets/script/main.js"></script>
 
 </body>
 </php>
